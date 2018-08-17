@@ -1,0 +1,1 @@
+curl -X POST --data-binary @./gc.log.0.current http://api.gceasy.io/analyzeGC?apiKey=1b516331-fbf8-4838-bddd-c0feef200948 --header "Content-Type:text" > out.json

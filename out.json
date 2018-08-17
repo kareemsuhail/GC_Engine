@@ -1,0 +1,78 @@
+{
+    "isProblem": false,
+    "jvmHeapSize": {
+        "youngGen": {
+            "allocatedSize": "1.93 gb",
+            "peakSize": "1.86 gb"
+        },
+        "oldGen": {
+            "allocatedSize": "3.07 gb",
+            "peakSize": "313 mb"
+        },
+        "metaSpace": {
+            "allocatedSize": "256 mb",
+            "peakSize": "n/a"
+        },
+        "total": {
+            "allocatedSize": "5 gb",
+            "peakSize": "1.86 gb"
+        }
+    },
+    "gcStatistics": {
+        "totalCreatedBytes": "5.52 gb",
+        "measurementDuration": "1 min 44 sec 343 ms",
+        "avgAllocationRate": "54.17 mb/sec",
+        "avgPromotionRate": "3.32 mb/sec",
+        "minorGCCount": "20",
+        "minorGCTotalTime": "2 sec 555 ms",
+        "minorGCAvgTime": "128 ms",
+        "minorGCAvgTimeStdDeviation": "101 ms",
+        "minorGCMinTIme": "11 ms",
+        "minorGCMaxTime": "330 ms",
+        "minorGCIntervalAvgTime": "5 sec 491 ms",
+        "fullGCCount": "0"
+    },
+    "gcKPI": {
+        "throughputPercentage": 98.256,
+        "averagePauseTime": 165.45454,
+        "maxPauseTime": 330.0
+    },
+    "gcDurationSummary": {
+        "groups": [
+            {
+                "start": "0",
+                "end": "0.1",
+                "numberOfGCs": 3
+            },
+            {
+                "start": "0.1",
+                "end": "0.2",
+                "numberOfGCs": 4
+            },
+            {
+                "start": "0.2",
+                "end": "0.3",
+                "numberOfGCs": 3
+            },
+            {
+                "start": "0.3",
+                "end": "0.4",
+                "numberOfGCs": 1
+            }
+        ]
+    },
+    "gcCauses": [
+        {
+            "cause": "Ergonomics",
+            "count": 12
+        },
+        {
+            "cause": "G1 Evacuation Pause",
+            "count": 11
+        }
+    ],
+    "commandLineFlags": " -XX:CompressedClassSpaceSize=260046848 -XX:G1LogLevel=finest -XX:+G1PrintHeapRegions -XX:+G1PrintRegionLivenessInfo -XX:+G1SummarizeConcMark -XX:GCLogFileSize=104857600 -XX:+HeapDumpOnOutOfMemoryError -XX:InitialHeapSize=5368709120 -XX:InitiatingHeapOccupancyPercent=45 -XX:MaxGCPauseMillis=500 -XX:MaxHeapSize=5368709120 -XX:MaxMetaspaceSize=268435456 -XX:MaxTenuringThreshold=8 -XX:MetaspaceSize=268435456 -XX:NumberOfGCLogFiles=5 -XX:+PreserveFramePointer -XX:+PrintAdaptiveSizePolicy -XX:+PrintFlagsFinal -XX:+PrintGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+PrintStringDeduplicationStatistics -XX:+PrintTenuringDistribution -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation -XX:+UseStringDeduplication ",
+    "throughputPercentage": 98.256,
+    "responseId": "1766ea88-daca-4820-975b-5cf9810be5ae",
+    "graphURL": "http://api.gceasy.io/my-gc-report.jsp?p=YXJjaGl2ZWQvMjAxOC8wOC8xNi8tLWFwaS0xYjUxNjMzMS1mYmY4LTQ4MzgtYmRkZC1jMGZlZWYyMDA5NDhjMThkZjhhMi0wODRlLTQ2NDktYThiZi0wZWMxZjBmNjFlMTUudHh0LS0=&channel=API"
+}

@@ -1,0 +1,30 @@
+{
+    "gcDurationSummary": {
+        "groups": [
+            {
+                "end": 0.1,
+                "numberOfGCs": 3,
+                "start": 0.0
+            },
+            {
+                "end": 0.2,
+                "numberOfGCs": 4,
+                "start": 0.1
+            },
+            {
+                "end": 0.3,
+                "numberOfGCs": 2,
+                "start": 0.2
+            },
+            {
+                "end": 0.4,
+                "numberOfGCs": 2,
+                "start": 0.3
+            }
+        ]
+    },
+    "gcKPI": {
+        "averagePauseTime": 164.320536,
+        "maxPauseTime": 327.545
+    }
+}
