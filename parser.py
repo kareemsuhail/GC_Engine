@@ -107,6 +107,7 @@ Parser combinator OR.
 parsers :: [Parser]
 return :: Parser
 """
+"""this is a test comment """
 def orP(parsers):
     def parseOr_(text, data):
         msgL = []
